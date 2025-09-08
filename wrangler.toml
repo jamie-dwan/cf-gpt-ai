@@ -1,9 +1,9 @@
 name = "cf-ai-chat"
-main = "src/worker.js"
+main = "src/worker.js"  
 compatibility_date = "2025-08-25"
 
 [ai]
-binding = "AI"  
+binding = "AI"
 
 # KV 存储配置（可选，用于聊天历史）
 # 需要先在 Cloudflare Dashboard 创建 KV 命名空间
@@ -16,6 +16,7 @@ preview_id = "28d32fb016e4415c9f95b4993b776b52"
 # 部署前请修改为安全的密码
 [vars]
 CHAT_PASSWORD = "Admin123"
+
 
 
 
