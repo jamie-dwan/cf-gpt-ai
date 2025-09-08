@@ -9,14 +9,14 @@ binding = "AI"
 # 需要先在 Cloudflare Dashboard 创建 KV 命名空间
 # 然后替换下面的 id 和 preview_id
 [[kv_namespaces]]
-binding = "CHAT_HISTORY"
+binding = "CHAT_HISTORY"  
 id = "28d32fb016e4415c9f95b4993b776b52"
-preview_id = "28d32fb016e4415c9f95b4993b776b52"  
-
+preview_id = "28d32fb016e4415c9f95b4993b776b52"
 # 环境变量配置
 # 部署前请修改为安全的密码
 [vars]
 CHAT_PASSWORD = "Admin123"
+
 
 
 
